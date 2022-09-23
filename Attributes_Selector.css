@@ -1,0 +1,19 @@
+a[target] {
+    background-color: rgb(236, 167, 17);
+}
+a[target="blank"] {
+    background-color: rgb(135, 182, 26);
+}
+[class|=top]{
+    background-color: orange;
+}
+[class^="top"]{
+    border: 2px solid rgb(36, 22, 231);
+}
+[class$="text"]{
+    background-color: aqua;
+    font-size: xx-large;
+}
+[class*="xt"]{
+    border: 4px dotted violet;
+}
