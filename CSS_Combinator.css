@@ -1,0 +1,23 @@
+body{
+    text-align: center;
+}
+/* General Sibling Selector(~) */
+h1 ~ p{
+    color: rgb(68, 14, 216);
+    font-size: 15px;
+}
+/* Adjacent Sibiling Selector(+) */
+h1 + p{
+    color: green;
+    font-size: larger;
+}
+/* Child Selector(>) */
+body > p{
+    color: red;
+    font-size: 30px;
+}
+/* Descendant Selector (space) between body and p tag */
+body p{
+    color: gold;
+    font-size: 26px;
+}
