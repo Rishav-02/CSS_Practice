@@ -1,0 +1,22 @@
+/* counter-reset---Creates or resets a counter */
+/* counter-increments---Increments a counter value */
+/* content-Inserts generated content */
+/* counter()or counters() function-Adds the value of a counter to an element */
+/* To use a CSS counter,it must first be created with counter-reset */
+body {
+  counter-reset: section;
+}
+
+h1 {
+  counter-reset: subsection;
+}
+
+h1::before {
+  counter-increment: section;
+  content: "Section " counter(section) ". ";
+}
+
+h2::before {
+  counter-increment: subsection;
+  content: counter(section) "." counter(subsection) " ";
+}
