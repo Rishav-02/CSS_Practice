@@ -1,0 +1,44 @@
+h2{
+    text-decoration: underline;
+    color: royalblue;
+}
+p{
+    color: green;
+}
+img{
+    width: 30%;
+    height: 20%;
+}
+    .main-image{
+        text-align: center;
+    }
+    .brightness{
+        filter: brightness(170%);
+    }
+    .blur{
+        filter: blur(2px);
+    }
+    .invert{
+        filter: invert(80%);
+    }
+    .saturate{
+        filter: saturate(40)
+    }
+    .drop-shadow{
+        filter: drop-shadow(5px 15px 10px rgb(105, 228, 5));
+    }
+    .contrast{
+        filter: contrast(330%);
+    }
+    .opacity{
+        filter: opacity(30%);
+    }
+    .hue-rotate{
+        filter: hue-rotate(240deg);
+    }
+    .grayscale{
+        filter: grayscale(80%);
+    }
+    .sepia{
+        filter: sepia(90%);
+    }
