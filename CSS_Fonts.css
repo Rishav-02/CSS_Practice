@@ -1,0 +1,11 @@
+p{
+    font-family: 'Lobster','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 53px; /* 1/96th of an inch */
+    line-height: 1.2em;
+}
+
+span{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    font-style: italic;          
+}
