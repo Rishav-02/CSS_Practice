@@ -1,0 +1,7 @@
+.mask1{
+    -webkit-mask-image: url(Landscape-Color.jpg);
+    mask-image: url(Landscape-Color.jpg);
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+
+}
