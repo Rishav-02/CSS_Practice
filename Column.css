@@ -1,0 +1,33 @@
+div{
+    columns: 100px 4;/*100px ka 4 columns */
+    border: 1px solid salmon;
+    font-size: 20px;
+}
+p{
+    column-width: 200px;
+    border: 2px dashed saddlebrown;
+    font-size: 20px;
+}
+span{
+    column-count: 10px;
+    border: 3px double royalblue;
+    font-size: 20px;
+}
+.none{
+    hyphens: none;
+    background-color: aqua;
+    width: 50px;
+    border: 1px solid red;
+}
+.manual{
+    hyphens: manual;
+    background-color: yellow;
+    width: 50px;
+    border: 1px solid red;
+}
+.auto{
+    hyphens: auto;
+    background-color: green;
+    width: 50px;
+    border: 1px solid red;
+}
