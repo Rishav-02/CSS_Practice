@@ -1,0 +1,10 @@
+.display-flex{
+    display: flex;
+}
+.display-flex div{
+      padding: 10px;
+      background-color: rgb(60, 172, 236);
+      border: 10px solid green;
+      text-align: center;
+      
+  }
