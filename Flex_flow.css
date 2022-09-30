@@ -1,0 +1,14 @@
+.flex-container{
+    display: flex;
+    /* All Possible value of direction and wrap */
+    flex-flow: row-reverse wrap;
+    background-color: rgb(79, 58, 199);
+}
+.flex-container > div{
+    background-color: rgb(200, 233, 14);
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 45px;
+    font-size: 20px;
+}
