@@ -1,0 +1,21 @@
+.grid-container{
+    display: grid;
+    grid-template-rows: 40px 80px 100px;
+    gap: 50px;
+    background-color: rgb(75, 219, 62);
+    padding: 20px;
+}
+.grid-container > div{
+    background-color: rgb(218, 233, 196);
+    padding: 30px;
+    font-size: 30px;
+    text-align: center;
+}
+.grid-item1{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.grid-item5{
+    grid-row-start: 2;
+    grid-row-end: 5;
+}
