@@ -1,0 +1,37 @@
+
+        /* To see the effect of float and clear comment rest and use one to see effect.  */
+        img{
+            float: right;
+            clear: left;          
+        }
+        /* img{
+            float: left;
+            clear: right;
+        } */
+        /* img{
+            float: none;
+            
+        }  */
+   
+        .div1 {
+        float: left;
+        padding: 10px;
+        border: 3px solid #73AD21;
+      }
+      
+      .div2 {
+        padding: 10px;
+        border: 3px solid red;
+      }
+      
+      .div3 {
+        float: left;
+        padding: 10px;  
+        border: 3px solid #73AD21;
+      }
+      
+      .div4 {
+        padding: 10px;
+        border: 3px solid red;
+        clear: left;
+      }
