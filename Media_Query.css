@@ -1,0 +1,19 @@
+body{
+    background-color: aqua;
+}
+@media screen and (min-width:580px){
+    body{
+        background-color: green;
+    }
+}
+div.size{
+    background-color: violet;
+    padding: 12px;
+}
+@media screen and (max-width:800px)
+{
+   div.size{
+         display: none;
+         font-size: 80px;
+    }
+}
