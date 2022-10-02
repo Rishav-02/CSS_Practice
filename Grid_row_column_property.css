@@ -1,0 +1,36 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    /* gap is a shorthand property of column-gap and row-gap */
+    gap: 10px;
+    background-color: rgb(237, 241, 197);
+    padding: 20px;
+}
+.grid-container > div{
+    background-color: rgb(224, 187, 19);
+    padding: 20px 0px;
+    font-size: 30px;
+    text-align: center;
+}
+/*  The grid-column property is a shorthand property for the grid-column-start and the grid-column-end properties. */
+.item1{
+    /* Make "item1" start on column 1 and end before column 4 i.e 3 */
+    grid-column: 1 / 4;
+}
+.item5{
+    /* Make "items5" start on column 5 and span 2 columns */
+    grid-column: 5 / span 2;
+}
+/*  The grid-row property is a shorthand property for the grid-row-start and the grid-row-end properties. */
+.items1{
+    grid-row: 1 / span 4;
+}
+.items10{
+    grid-row: 10 / 3;
+}
+.items14{
+    grid-row: 14 / 1;
+}
+.items3{
+    grid-row: 3 / span 2;
+}
