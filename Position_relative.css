@@ -1,0 +1,9 @@
+img{
+    position: relative;
+    left: 60%;  /*left se 60% right me */
+}
+p{
+    position: relative;
+    right: 40px; /*right se 40px left me andar */
+    border: 3px solid green;
+}
