@@ -1,0 +1,52 @@
+.container{
+    border: 4px solid rgb(12, 230, 66);
+    background-color: rgb(238, 129, 46);
+    margin: 34px auto;
+    padding: 32px;
+    width: 551px;
+}
+a{
+    text-decoration: none;
+    color: rgb(243, 10, 10);
+    font-size: 15px;  
+}
+/* Unvisited Link */
+a:link{
+   background-color: rgb(231, 117, 231);
+}
+/* Visited Link */
+a:visited{
+    background-color: rgb(226, 207, 222);
+}
+/* Mouse over Link */
+a:hover{
+   background-color: blue;
+}
+/* Selected Link */
+a:active{
+   background-color: aqua;
+}
+
+.btn{
+    background-color: rgb(15, 207, 88);
+    padding: 6px;
+    margin: auto;
+    border: none;
+    /* There are many types of cursor named crosshair,move,wait,progress etc. */
+    cursor: move;
+    
+    font-size: 14px;
+    border-radius: 8px;
+}
+/* Mouse over Contact us button par */
+.btn:hover{
+    background-color: rgb(124, 179, 22);
+    color: rgb(72, 10, 242);
+    border: 2px solid black;
+    text-decoration: underline;
+}
+.btn:visited,.btn:active{
+    background-color: aqua;
+    padding: 14px ;
+    display: inline-block;
+}
