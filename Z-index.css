@@ -1,0 +1,7 @@
+ /* Z-index more image/text is in front of and less Z-index means image/text is behind */
+        img{
+            position:absolute;
+            left: 0px;
+            top: 0px;
+            z-index: -1;
+        }
