@@ -1,0 +1,31 @@
+ /* For making Responsive table use overflow-x:auto it will display a horizontal scroll bar if the screen is too small to display the full content: */
+
+        table,th,td{
+            border: 2px solid green;
+        }
+        table{
+            width: 100%;
+            border-collapse: collapse;
+        }
+        .Text{
+            height: 100px;
+            padding: 5%;
+        }
+        th,td{
+            text-align: center;
+            padding: 2%;
+        }
+        th{
+            background-color: aqua; 
+            color: yellow;
+            height: 40px;
+            vertical-align: bottom;
+        }
+        /* Mouse ke jana par colour change */
+        tr:hover{
+            background-color: orangered;
+        }
+        /* For Zebra striped tables use this type for value odd/even both */
+        tr:nth-child(even){
+            background-color: #f2f2f2;
+        }
