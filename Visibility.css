@@ -1,0 +1,9 @@
+#visible{
+    visibility: visible;
+    background-color: aqua;
+}
+/* Content is hidden but take space as use see in output screen */
+.hidden{
+    visibility: hidden;
+    background-color: blue;
+}
